@@ -1,0 +1,93 @@
+{
+  "headers": {
+    "about": "About Me",
+    "experience": "Work Experience",
+    "projects": "Projects"
+  },
+  "company": [
+    "SSAI", "Veneklasen", "SSMCI", "Brother"
+  ],
+  "job": [
+    {
+      "key": "ssai",
+      "company": "Science Systems and Applications, Inc.",
+      "title": "Software Developer I",
+      "responsibility": [
+        "Worked on implementing unit testing and to help redesign the development life cycle currently being used during the major upgrade of our Liferay system.",
+        "Led the development of a project which gives the users a way to create and join teams, view data, and \"compete\" with other users across the world.",
+        "Added new features to the NASA GLOBE Observer App that allows users to create, find, and join a team.",
+        "Led the development of a project that allows users to view data about Earth's systems.",
+        "Led the development of a project which gives the users a new way to connect and view new entries into the system.",
+        "Worked with a team as a key developer of 40% of a responsive redesign for the customers website.",
+        "Helped to develop 10% of a major project for NASA for the Eclipse, which displayed the changing air temperatures throughout the day.",
+        "Redesigned a major query to be more efficient and dynamically controlled by the end-user.",
+        "Created a portlet using the jQuery sortable library to allow users to display their contact information and display it in a certain order.",
+        "Created a portlet that displays recent measurements based on the current page, showing up to 7 days worth of data, updated through a bash script daily.",
+        "Worked on the Google Maps API by adding custom layers using GeoJSON coordinates and custom styling of the Google Maps API.",
+        "Redesigned a number of portlets, which includes: improving a scrolling ticker containing measurements, adding searchable lists, and using many features of the Google Maps API."
+      ]
+    },
+    {
+      "key": "veneklasen",
+      "company": "Veneklasen",
+      "title": "Programming Consultant",
+      "responsibility": [
+        "Implemented a project management web-application that worked with the Google Maps API to display projects that matched different search filters.",
+        "Created a database that stores all project information hosted on Azure and accessed via a MVC API.",
+        "Worked with the client to implement and improve upon features and functionality."
+      ]
+    },
+    {
+      "key": "ssmci",
+      "company": "Simpson & Simpson Management Consulting, Inc.",
+      "title": "Software Developer Intern",
+      "responsibility": [
+        "Developed a desktop application in C# using the MVVM framework for EZPricebooks.",
+        "Integrated Quickbooks QBFC into the application, to connect and access data from a company's file to the EzPricebooks.",
+        "Managed and modified the database design behind EzPricebooks."
+      ]
+    },
+    {
+      "key": "brother",
+      "company": "Brother",
+      "title": "Data Analyst Intern",
+      "responsibility": [
+        "Designed and developed a C# application that allowed the user to search through a selected database and database table.",
+        "Implemented a feature that allowed the user to save the queried data to a .csv file.",
+        "Worked with and analyzed large amounts of data by designing multiple real-world SQL queries."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "key": "smartmirror",
+      "title": "SmartMirror",
+      "githubUrl": "https://github.com/djtheseira/smartmirror",
+      "url": "/smartmirror",
+      "description": "Display data pulled from Google Maps, Geocoding, and Geolocation, Spotify, Dark Sky, CryptoCompare, and IEX API's. The data is displayed in sections, showing general information about what we look at quite often as well as show a motivational quote to keep you going through the day.",
+      "tools": ["Node.js", "Docker", "Mocha", "Chai", "EJS", "JS"]
+    },
+    {
+      "key": "messenger",
+      "title": "Goodnight Messenger",
+      "githubUrl": "https://github.com/djtheseira/Goodnight-Messenger",
+      "url": "https://chrome.google.com/webstore/detail/goodnight-messenger/bcilbljlhllkdhfcocmfodcgnecpbppe?hl=en-US&authuser=2",
+      "description": "Google Chrome Extension that gives the Facebook Messenger website a dark theme option.",
+      "tools": ["CSS", "JS"]
+    },
+    {
+      "key": "donovant",
+      "title": "Donovan T v2",
+      "githubUrl": "https://github.com/djtheseira/",
+      "description": "Second iteration of my personal website built with HTML, JS and hosted on linode behind a Nginx reverse proxy containerized with Docker.",
+      "tools": ["React", "Docker"]
+    }
+  ],
+  "skills": {
+    "Server_Side": "Java, JSP, bash, C#, Razor",
+    "Client_Side": "HTML5, CSS, JavaScript, ES6",
+    "Database": "PostgreSQL, MSSQL, MySQL",
+    "Version_Control": "Bitbucket, Git",
+    "Gaining_Experience": "React, Node.js, Jenkins, Docker, MongoDB, Mongoose"
+  }
+}
