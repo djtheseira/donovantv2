@@ -15,7 +15,7 @@ class Footer extends React.Component {
             <li><a href="https://www.soundcloud.com/iamcrouton" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faSoundcloud} size="lg" /></a></li>
           </ul>
         </div>
-        <div >Created by Donovan T. &copy; 2019 </div>
+        <div >Created by Donovan T. &copy; 2023 </div>
       </footer>
     );
   }
