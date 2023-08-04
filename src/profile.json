@@ -5,14 +5,23 @@
     "projects": "Projects"
   },
   "company": [
-    "SSAI", "Veneklasen", "SSMCI", "Brother"
+    "Axient", "SSAI", "Veneklasen", "SSMCI", "Brother"
   ],
   "job": [
     {
+      "key": "axient",
+      "company": "Axient",
+      "title": "Software Engineer 2",
+      "responsibility": [
+        "Refreshed the GLOBE account creation form using React, updating the look and feel, as well as improving the functionality of the form, while creating clean and maintable code."
+      ]
+    },
+    {
       "key": "ssai",
       "company": "Science Systems and Applications, Inc.",
-      "title": "Lead Software Developer",
+      "title": "Software Develop II",
       "responsibility": [
+        "Led the development on a feature that allows GLOBE Educators to create new GLOBE Students so that their students are able to enter data into the system and interact with the GLOBE website.",
         "Worked on implementing unit testing and to help redesign the development life cycle currently being used during the major upgrade of our Liferay system.",
         "Led the development of a project which gives the users a way to create and join teams, view data, and \"compete\" with other users across the world.",
         "Added new features to the NASA GLOBE Observer App that allows users to create, find, and join a team.",
@@ -60,10 +69,16 @@
   ],
   "projects": [
     {
+      "key": "smartwirelesslighting",
+      "title": "Smart Wireless Lighting",
+      "githubUrl": "https://github.com/djtheseira/SmartWirelessLighting",
+      "description": "A mod for the game 'Satisfactory', allowing users to connect the built-in lighting system wirelessly using my mod, instead of having to manually connect all lights using wires.",
+      "tools": ["C++", "C#", "C", "Unreal Engine 4/5"]
+    },
+    {
       "key": "smartmirror",
       "title": "SmartMirror",
       "githubUrl": "https://github.com/djtheseira/smartmirror",
-      "url": "/smartmirror",
       "description": "Display data pulled from Google Maps, Geocoding, and Geolocation, Spotify, Dark Sky, CryptoCompare, and IEX API's. The data is displayed in sections, showing general information about what we look at quite often as well as show a motivational quote to keep you going through the day.",
       "tools": ["Node.js", "Docker", "Mocha", "Chai", "EJS", "JS"]
     },
@@ -84,8 +99,9 @@
     }
   ],
   "skills": {
-    "Server_Side": "Java, JSP, bash, C#, Razor",
+    "Server_Side": "Java, JSP, bash, C#, Razor, C++, C",
     "Client_Side": "HTML5, CSS, JavaScript, ES6",
+    "Game Engine": "Unreal Engine 4/5",
     "Database": "PostgreSQL, MSSQL, MySQL",
     "Version_Control": "Bitbucket, Git",
     "Gaining_Experience": "React, Node.js, Jenkins, Docker, MongoDB, Mongoose"
