@@ -17,15 +17,14 @@ RUN addgroup -S app &&\
 # COPY ./package.json $HOME/donovant
 COPY ./src $HOME/donovant/src
 # COPY ./config/nginx.conf $HOME
-
 COPY ./public $HOME/donovant/public
 
 # RUN chown -R app:app $HOME/*
 
-# RUN npm run build
+RUN npm run build
   
-# CMD serve -s build -l 3000
-CMD ["npm", "start"]
+CMD serve -s build -l 3000
+# CMD ["npm", "start"]
 
 # USER app
 
