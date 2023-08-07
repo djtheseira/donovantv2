@@ -9,7 +9,7 @@ COPY package.json $HOME/donovant
 WORKDIR $HOME/donovant
 RUN npm install
 
-RUN npm install serve
+RUN npm install -g serve
 
 RUN addgroup -S app &&\
   adduser -S -D -h /bin/false app -G app
