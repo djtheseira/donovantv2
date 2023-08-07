@@ -1,4 +1,4 @@
-FROM node:12.10-alpine
+FROM node:16-alpine
 
 ENV HOME=/home/app
 
@@ -9,12 +9,12 @@ COPY package.json $HOME/donovant
 WORKDIR $HOME/donovant
 RUN npm install
 
-RUN npm install -g serve
+RUN npm install serve
 
 RUN addgroup -S app &&\
   adduser -S -D -h /bin/false app -G app
 
-COPY ./package.json $HOME/donovant
+# COPY ./package.json $HOME/donovant
 COPY ./src $HOME/donovant/src
 # COPY ./config/nginx.conf $HOME
 
